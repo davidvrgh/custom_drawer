@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yougotagift.customcoordinator.RewardsDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:elevation="10dp"
+        android:id="@+id/mobile_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
+
+    </FrameLayout>
+
+    <Button
+        android:elevation="0dp"
+        android:id="@+id/btn_in_root"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_orange_light" />
+
+
+
+</com.yougotagift.customcoordinator.RewardsDrawer>
